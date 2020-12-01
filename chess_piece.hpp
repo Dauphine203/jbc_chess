@@ -1,4 +1,4 @@
-#ifndef CHESS_PIECE
+#ifndef CHESS_PIECE_HPP
 #define CHESS_PIECE_HPP
 
 #include <algorithm>
@@ -13,9 +13,6 @@ namespace chess
 
     class chess_piece
     {
-	using color = char;
-   	using position_type = pair<char, int> ;
-
 	public:
 		chess_piece(const chess_piece&) = delete; 
     		virtual ~chess_piece();
