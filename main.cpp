@@ -6,24 +6,12 @@
 #include <string>
 #include <utility>
 
-// WINDOWS
-// mkdir build
-// cd build
-// cmake -G "NMake Makefiles" ..
-// nmake
-
-// LINUX // MACOS
-// mkdir build
-// cd build
-// cmake ..
-// make
-
 namespace chess
 {
     void print_chess()
     {
         std::cout << "+----+----+----+----+----+----+----+----+----+ " << std::endl;
-        std::cout << "|  8 | Rb | Nb | Bb | Qb | Kb | Bb | Nb | Rb |" << std::endl;
+        std::cout << "|  8 | Rb | Nb | Bb | Qb | Kb | Bb | Nb | Rb | " << std::endl;
         std::cout << "+----+----+----+----+----+----+----+----+----+ " << std::endl;
         std::cout << "|  7 | Pb | Pb | Pb | Pb | Pb | Pb | Pb | Pb | " << std::endl;
         std::cout << "+----+----+----+----+----+----+----+----+----+ " << std::endl;
@@ -39,7 +27,7 @@ namespace chess
         std::cout << "+----+----+----+----+----+----+----+----+----+ " << std::endl;
         std::cout << "|  1 | Rw | Nw | Bw | Qw | Kw | Bw | Nw | Rw | " << std::endl;
         std::cout << "+----+----+----+----+----+----+----+----+----+ " << std::endl;
-        std::cout << "|    |  a |  b |  c |  d |  e |  f |  g |  h | " << std::endl;
+        std::cout << "|    |  a |  b |  c |  d |  e |  f |  g |  h | " << std::endl;
         std::cout << "+----+----+----+----+----+----+----+----+----+ " << std::endl;
     }
 
