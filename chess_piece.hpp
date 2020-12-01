@@ -25,7 +25,7 @@ namespace chess
     	private:
 
         	position_type m_position;
-        	color m_color; 
+        	color m_color;
 
     };
 }
