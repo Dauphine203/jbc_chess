@@ -41,7 +41,7 @@ namespace chess
   class queen: public chess_piece
   {
   public:
-    bool can_move(const position_type& pos) const override {
+    bool can_move(const position_type& pos) const {
       return true;
     }
   };
@@ -49,7 +49,7 @@ namespace chess
   class king: public chess_piece
   {
   public:
-    bool can_move(const position_type& pos) const override {
+    bool can_move(const position_type& pos) const {
       return true;
     }
   };
@@ -57,7 +57,7 @@ namespace chess
   class bishop: public chess_piece
   {
   public:
-    bool can_move(const position_type& pos) const override {
+    bool can_move(const position_type& pos) const {
       return true;
     }
   };
@@ -65,7 +65,7 @@ namespace chess
   class knight: public chess_piece
   {
   public:
-    bool can_move(const position_type& pos) const override {
+    bool can_move(const position_type& pos) const {
       return true;
     }
   };
@@ -73,7 +73,7 @@ namespace chess
   class pawn: public chess_piece
   {
   public:
-    bool can_move(const position_type& pos) const override {
+    bool can_move(const position_type& pos) const {
       return true;
     }
   };
@@ -81,7 +81,7 @@ namespace chess
   class rook: public chess_piece
   {
   public:
-    bool can_move(const position_type& pos) const override {
+    bool can_move(const position_type& pos) const {
       return true;
     }
   };
